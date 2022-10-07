@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    padding: 10px;
+    background-color: rgb(0, 89, 255);
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 28px;
+    font-family: 'Kanit', sans-serif;
+}
+
+.container{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#div-botao{
+    height: 75vh;
+}
+#div-botao h1{
+    font-family: 'Kanit';
+    font-size: 26px;
+}
+#bt-ejetar{
+    padding: 10px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: none;
+    box-shadow: 1px 1px 3px 1px black;
+    background-color: rgb(0, 89, 255);
+    color: white;
+    font-size: 22px;
+    font-family: 'Kanit', sans-serif;
+    margin-top: 10px;
+}
+#bt-ejetar:hover{
+    cursor: pointer;
+    box-shadow: 2px 2px 4px 2px black;
+    background-color: rgb(0, 26, 255);
+}
+
+/*CONTEUDO*/
+#conteudo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    height: 150vh;
+    font-family: 'Kanit', sans-serif;
+    font-size: 18px;
+    
+}
+
+
+/*TABELA DE MODELOS*/
+table{ 
+    border-spacing: 1; 
+    border-collapse: collapse; 
+    background:white;
+    border-radius:6px;
+    overflow:hidden;
+    max-width:800px; 
+    width:80%;
+    margin:0 auto;
+    position:relative;
+    margin-top: 10px;
+}
+td,th{ 
+    padding-left:8px
+}
+thead tr{ 
+    height:60px;
+    background: rgb(0, 26, 255);
+    font-size:20px;
+    color: white;
+}
+    
+tbody tr{ 
+    height:48px; 
+    border-bottom:1px solid #E3F1D5;  
+    }
+    
+td,th{ 
+    text-align:left;
+}		
+  
+  
+  
+  
+#copyright{
+    font-size: 12px;
+}
+#copyright a{
+    text-decoration: none;
+}
+  
